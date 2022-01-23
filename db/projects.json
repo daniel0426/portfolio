@@ -1,0 +1,99 @@
+{
+    "projects" : [
+        
+        {
+            "title": "Business Card Maker",
+            "description": "Business card maker to store business cards in realtime database. The motivation for this app is to store information about someone related to you preparing for non-face-to-face situations.",
+            "imgURL": "../asset/project-img/businessCardProject.png",
+            "siteURL": "https://businesscard-generator.netlify.app",
+            "githubURL": "https://github.com/daniel0426/business-card",
+            "skills" :["React","Firebase","Post CSS", "Cloudinary"] 
+        },
+        {
+            "title" : "All In TECH",
+            "description" : "Digital Products e-commerce application using commerce.js and stripe to experience user friendly payment system.",
+            "imgURL" : "../asset/project-img/allintechProject.png",
+            "siteURL" : "https://all-in-tech.netlify.app/",
+            "githubURL" : "https://github.com/daniel0426/e-commerce",
+            "skills" : ["React", "Stripe", "Commerce.js", "Material UI"]
+        },
+        {
+            "title" : "CryptoWorld",
+            "description" : "Cryptocurrency website that show users crypcurrencies and related news using coinranking and Bing news API.",
+            "imgURL" : "../asset/project-img/cryptoworldProject.png",
+            "siteURL" : "https://cryptos-worlds.netlify.app/",
+            "githubURL" : "https://github.com/daniel0426/cryptoworld",
+            "skills" : ["React", "Redux", "Rapid API", "Ant Design"]
+        },
+
+        {
+            "title": "Thrift Me ( Team Project )",
+            "description": "Online C2C e-commerce store based out of New Zealand. The platform facilitates second-hand shopping for and selling of preloved, named brand, items of clothing from user to user.",
+            "imgURL": "../asset/project-img/thriftMeProject.png",
+            "siteURL": "",
+            "githubURL": "https://github.com/daniel0426/C2C-ecommerce-store",
+            "skills" :["Vue", "Nodejs", "Express", "MongoDB", "Tailwind CSS", "Authentication (Jwt)"] 
+        }
+
+
+    ],
+
+    "subProjects" : [
+        {
+            "title": "Movie Studio",
+            "description": "Movie app that shows bunch of movies and implement with detail page. Using GraphQL and Apollo to get movies from the API.",
+            "imgURL": "../asset/project-img/movieStudioProject.png",
+            "siteURL": "https://awesome-movie-studio.netlify.app",
+            "githubURL": "https://github.com/daniel0426/movie-studio",
+            "skills" :["React", "Apollo", "GraphQL"] 
+        },
+        {
+            "title": "AI Website",
+            "description": "AI Website built with React and CSS(BEM) to practice user friendly UX/UI desgin.",
+            "imgURL": "../asset/project-img/aiWebsiteProject.png",
+            "siteURL": "https://gpt3-ui-ux.netlify.app",
+            "githubURL": "https://github.com/daniel0426/AI-webiste",
+            "skills" :["React", "CSS(BEM)"] 
+        },
+    
+        {
+            "title": "Home Auto Controller",
+            "description": "Home Auto Controller is an application to control customers home, manage energy efficiency and security. ",
+            "imgURL": "../asset/project-img/homeControlProject.png",
+            "siteURL": "https://home-controller.netlify.app/",
+            "githubURL": "https://github.com/daniel0426/home-controller",
+            "skills" :["HTML", "CSS", "Javascript"] 
+
+        },
+        {
+            "title": "Carrot Picker Game",
+            "description": "Carrot picking game that modularize with game engine and other features. Game engine is implemented with Javascript Class.",
+            "imgURL": "../asset/project-img/carrotGameProject.png",
+            "siteURL": "https://carrot-picker.netlify.app/",
+            "githubURL": "https://github.com/daniel0426/Carrot-Picker-Game",
+            "skills" : ["HTML", "CSS", "Javascript"]
+
+        },
+        {
+            "title" : "Quiz Gang",
+            "description" : "Quiz game application, that user can choose each category of game. Using context API to handle states.",
+            "imgURL" : "../asset/project-img/quizgangProject.png",
+            "siteURL" : "https://quizgang.netlify.app/",
+            "githubURL" : "https://github.com/daniel0426/Quiz-game",
+            "skills" : ["React", "Trivia API", "Context API"]
+        },
+        {
+            "title" : "Twitter Clone",
+            "description" : "Simple Twitter clone app that implemented with Authentication and realtime database to show tweets.",
+            "imgURL" : "../asset/project-img/twittCloneProject.png",
+            "siteURL" : "https://react-tweet-clone.netlify.app",
+            "githubURL" : "https://github.com/daniel0426/Twitter-Clone",
+            "skills" : ["React", "Firebase"]
+        }  
+        
+    ]
+
+    
+}
+
+

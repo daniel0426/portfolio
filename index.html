@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./dist/daniel.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./dist/app.js" defer></script>
+    <title>Daniel Chung</title>
+
+</head>
+<body>
+    <header id="home" class="header">
+        <nav class="nav">
+            <div class="logo">
+                <a href="#home"><img class="logoImg" src="./asset/logo.png" alt="logo"></a>
+            </div>
+            <ul class="links">
+                <a href="#home"><li class="link">Home</li></a>
+                <a href="#about"><li class="link">About</li></a>
+                <a href="#project"><li class="link">Project</li></a>
+                <a href="#contact"><li class="link">Contact</li></a>
+                <a href="./asset/CV.pdf" target="_blank"><li class="link">CV</li></a>
+            </ul>
+            <div class="responsive-nav">
+                <div class="nav-line1 responsive-line"></div>
+                <div class="nav-line2 responsive-line"></div>
+                <div class="nav-line3 responsive-line"></div>
+            </div>
+        
+        </nav>
+        <nav class="mobile-nav">
+            <div class="close-nav">
+                <div class="mobilenav-line1 mobile-line"></div>
+                <div class="mobilenav-line2 mobile-line"></div>
+
+            </div>
+            <ul class="mobile-links">
+                <a href="#home"><li class="mobile-link">Home</li></a>
+                <a href="#about"><li class="mobile-link">About</li></a>
+                <a href="#project"><li class="mobile-link">Project</li></a>
+                <a href="#contact"><li class="mobile-link">Contact</li></a>
+                <a href="../asset/CV.pdf" target="_blank"><li class="mobile-link">CV</li></a>
+            </ul>
+        </nav>
+        
+        <section class="introduce_container">
+            <div class="introduce">
+            <p class='greet'>Hi, my name is</p>
+                <h1> Daniel Chung</h1>
+                <h1>I build things for the web.</h1>
+                <p class="introduce__desc">I'm an Auckland based developer who is passionate in
+                    building (and occasionally designing) exceptional web
+                    experiences.
+                    <br>
+                    Love to build amazing products and focus on solving problems for different niches and industries using the power of technology.
+                </p>
+                <button class="introduce__btn">
+                    <a href="#about">More about Me</a> 
+                </button>
+            </div>
+        </section>
+       
+    </header>
+    <section id="about" class="about__container">
+            <div class="about">
+                <div class="title">
+                    <h1>About me</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="about__desc">
+                    <div class="about-desc">
+                        <p>Hello!<br> My name is Daniel and I enjoy creating things that live on the internet.<br><br>
+                            I like to find technical inconveniences in common life and resolve them with clever code and thinking—turning thoughts into reality is the most attractive and satisfying part of this industry.
+                            <br><br>
+                            I have the ability to work independently as well as within a team environment with a proactive and eager attitude towards professional growth in my craft.
+            
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <p>Tech Skills</p>
+                        <ul class="skill__image">
+                            <li><img src="./asset/tech-icons/javasrcipt.png" alt="js"></li>
+                            <li><img src="./asset/tech-icons/react.png" alt="react"></li>
+                            <li><img src="./asset/tech-icons/vue.png" alt="vue"></li>
+                            <li><img src="./asset/tech-icons/nodejs.png" alt="nodejs"></li>
+                            <li><img src="./asset/tech-icons/mongoDB.png" alt="mongodb"></li>
+                            <li><img src="./asset/tech-icons/firebase.png" alt="firebase"></li>
+                            <li><img src="./asset/tech-icons/git.png" alt="git"></li>
+                            <li><img src="./asset/tech-icons/github.png" alt="github"></li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+          
+    </section>
+    <section id="project" class="project__container">
+        <div class="project">
+            <div class="title">
+                <h1>Project</h1>
+                <div class="line"></div>
+            </div>
+            <div class="ongoing__project">
+                <h1 class="ongoing__title">Currently working on ...</h1>
+                <div class="current-project">
+                    <img  class="current__img" src="./asset/ongoingProject.png" alt="ongoingProject" data-aos="zoom-in-left">
+                    <div class="current__desc" data-aos="zoom-in-right">
+                        <h1 class="current__title">Artisan</h1>
+                        <p class="current__explain">
+                            Art Platform built with MERN stack. Application is for nameless artists who can introduce their fine artworks and can be supported by public or organizations.
+                        </p>
+                        <ul class="current-skills">
+                            <h3 class="current-skills-title">Tech used</h3>
+                            <li>React</li>
+                            <li>Nodejs</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="current__project">
+                <h1 class="current-container-title">Main projects</h1>
+                <ul class="current-projects">
+                    
+                </ul>
+            </div>
+            <div class="sub__project">
+                <h1 class="current-container-title">Sub projects</h1>
+                <ul class="sub-projects">
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact__container">
+        <div class="contact">
+            <div class="title">
+                <h1>Contact</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact__desc">
+                <h1 class="contact__title">Let's work together !</h1>
+                <p>I want to bring my passion to the table where we can work together to solve real business-problems in a way that optimizes all of our respective experience and knowledge.</p>
+                <div class="contact__email">
+                    <h4>Have a question or want to talk to me ?</h4>
+                    <a href="mailto:devdaniel0426@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div>
+            <p>Handcrafted by Daniel © twentytwentyone </p>
+        </div>
+        <div class="icons">
+            <a href="https://github.com/daniel0426?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-chung-0426" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="footer-email">
+            <a href="mailto:devdaniel0426@gmail.com"  target="_blank">devdaniel0426@gmail.com</a>
+        </div>
+    </footer>
+   
+</body>
+</html>
